@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lachaise Assignment
+% LaTeX Template
+% Version 1.0 (26/6/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Marion Lachaise & François Févotte
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Problem Set \#5} % Title of the assignment
+
+\author{Mahyar Ebrahimitorki\\ \texttt{mahyar\_ebrahimi\_torki@yahoo.com}} % Author name and email address
+
+\date{ECON815 --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Part A} % Unnumbered section
+This graph shows the time series of crude oil price per barrel (in USD). Until the end of 1999, despite the events that triggered the oil price shocks, oil price decreases smoothly. Since the early 2000s, the oil price start to increase because of the shock which stem from the housing market boom. September 11th terrorist attacks in 2001 in the US reduces oil price. Since 2003, Oil price rises with the outbreak of Iraq war. During the period 2006-2007, China's economic growth and consequently global demand increased which was another reason for the continued rise in oil prices (\cite{filis2011dynamic}). International political tension between Iran and western countries, rising seasonal demand for oil, and concerns about oil reserves increased oil prices up to \$ 80 a barrel. Rising oil prices continued as oil prices hit an unprecedented \$ 140 a barrel but in mid-2008, with the effects of the global financial crisis, oil prices began to fall. The price of oil fell below \$ 40 a barrel. The increase in oil prices began once again after this period, so that in early 2011 the oil price was approximately 100 dollar per barrel. All in all, demand and supply of the world leads to higher prices of oil.
+
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics{Rplot01.png}
+		\caption{ }
+	\end{center}
+\end{figure}
+
+This graph shows the Russia stock market main index (MOEX) during 1996 to 2011. Russia is the one of the biggest oil exporter and as we see in the graph, the volatility is very high and is consistent with oil price volatility. Almost in every aforementioned shocks, Russia stock market as a index of their whole economy took reaction and both graph movements look alike. In this regard, I want to analyze the correlation between Russia stock market as a proxy of the whole economy of Russia and oil price shocks. For this purpose  we use dynamic conditional correlation (DCC) model which is a class of multivariate-GARCH models. This model mainly gives us the time series of the correlations between Russia index and oil price which is interpreted in these class of models. In the next chart, I will substantiate on my claims.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics{Rplot.png}
+		\caption{ }
+	\end{center}
+\end{figure}
+
+\section*{Part B}
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=\linewidth]{Rplot02.png}
+		\caption{ }
+	\end{center}
+\end{figure}
+
+This graph shows the correlation between the stock market and oil price from 1996 to 2011. As we assumed, the correlation between the index and oil price is always positive which means both variables move in the same directions. The most important point is that their correlations have been changing during this period but some of this change is more than others like what we have in 2008 (between100 and 150) and we can say that it is because of the global financial crisis in 2008. But the question that arises regarding to the correlation chart is that why Russia stock market index move with oil price in a harmony way and their correlation is positive. We can say that it is because, as an oil-exporter country their national income will increase due to oil price shock but it will be compensate by the incense in imported commodity  which their price has increased as a result of oil price shock.
+
+
+
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{authordate1}
+\bibliography{ref}
+
+
+\end{document}
